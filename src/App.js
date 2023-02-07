@@ -1,23 +1,54 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation'
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Certificates from './components/Certificates';
 
 function App() {
+
+  let Component
+  switch(window.location.pathname) {
+  case "/":
+    Component = Home
+    break
+  case "/projects":
+    Component = Projects
+    break
+  case "/blog":
+    Component = Blog
+    break
+  case "/certificates":
+    Component = Certificates
+    break
+  case "/contactme":
+    Component = Contact
+    break
+
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      
+      <div className="box1">
+        
+        <div className="box11">
+          <a>Geronimo Costa Peuser</a>
+        </div>
+        
+        <div className="box12">
+          <Navigation />
+        </div>
+
+      </div>
+
+      <div className="box2">
+        <Component />
+      </div>
+
+      <p className="credit">Created by Geronimo Costa Peuser</p>
+
     </div>
   );
 }

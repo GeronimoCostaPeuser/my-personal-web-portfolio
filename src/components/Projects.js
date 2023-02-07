@@ -64,8 +64,8 @@ const Projects = () => {
 					</div>
 
 					<div className="p2-links">
-						<a href="https://geronimocostapeuser.github.io/portfolio-website/">Project</a>
-						<a href="https://github.com/GeronimoCostaPeuser/portfolio-website">Source Code</a>
+						<a href="https://geronimocostapeuser-portfolio.herokuapp.com/">Project</a>
+						<a href="https://github.com/GeronimoCostaPeuser/my-personal-web-portfolio">Source Code</a>
 					</div>
 
 				</div>

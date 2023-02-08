@@ -609,6 +609,38 @@ h3 {
   transform: scale(1.05); 
 }
 
+@media screen and (max-width: 425px) {
+  .certificate-1 {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .certificate-1 img {
+    width: 70vw;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .certificate-2 {
+    width: 75vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .certificate-2 img {
+    width: 70vw;
+    margin: 5px;
+  }
+}
+
 /*-------------CONTACT PAGE--------------------*/
 .contactBox {
   display: flex;

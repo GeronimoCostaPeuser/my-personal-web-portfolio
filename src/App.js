@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Certificates from './components/Certificates';
+import ParticlesComponent from './components/Particles';
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
     break
   case "/contactme":
     Component = Contact
+    break
+  case "/relax":
+    Component = ParticlesComponent
     break
 
   }

@@ -20,6 +20,9 @@ const Navigation = () => {
 				<li className="active">
 					<a href="/contactme">Contact</a>
 				</li>
+				<li className="active">
+					<a href="/relax">Relax</a>
+				</li>
 			</ul>
 		</nav>
 		)

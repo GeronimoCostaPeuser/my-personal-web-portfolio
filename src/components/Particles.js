@@ -31,7 +31,10 @@ const ParticlesComponent = () => {
 					value: "#808080",
 				},
 				links: {
-					enable: true, 
+					enable: true,
+					color: {
+						value: "#808080",
+					},
 				},
 				move: {
 					enable:true,
@@ -40,7 +43,7 @@ const ParticlesComponent = () => {
 					value: {min: 0.3, max: 0.7 },
 				},
 				size: {
-					value: {min: 1, max: 3 },
+					value: {min: 1, max: 10 },
 				}
 			},
 		};

@@ -22,7 +22,7 @@ const ParticlesComponent = () => {
 		            quantity: 10, // number of particles to add on click
 		          },
 		          repulse: {
-		            distance: 100, // distance of the particles from the cursor
+		            distance: 200, // distance of the particles from the cursor
 		          },
 		        },
 		      },

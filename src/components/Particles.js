@@ -28,12 +28,12 @@ const ParticlesComponent = () => {
 		      },
 			particles: {
 				color: {
-					value: "#808080",
+					value: "#000080",
 				},
 				links: {
 					enable: true,
 					color: {
-						value: "#808080",
+						value: "#D3D3D3",
 					},
 				},
 				move: {
